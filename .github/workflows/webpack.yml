@@ -24,5 +24,6 @@ jobs:
 
     - name: Build
       run: |
-        npm install
+        yarn
+        yarn add -D webpack-cli
         npx webpack
