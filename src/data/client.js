@@ -9,7 +9,6 @@
  * @type {PostgreSQLClientModule}
  */
 const { Client: pgClient } = require('pg');
-
 /**
  * Instance du client PostgreSQL.
  * @type {Object}
