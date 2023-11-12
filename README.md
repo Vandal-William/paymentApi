@@ -2,7 +2,7 @@
 
 ## MCD
 
-<img src="./images/application de paiement(MCD).png">
+<img src="./src/images/application de paiement(MCD).png">
 
 ## Endpoints
 
