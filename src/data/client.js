@@ -19,10 +19,7 @@ const { Client: pgClient } = require('pg');
  * @property {string} host - URL du serveur PostgreSQL.
  */
 const client = new pgClient({
-    password: process.env.PG_PASSWORD,
-    user: process.env.PG_USERNAME,
-    database: process.env.PG_DATABASE_NAME,
-    host: process.env.PG_URL
+    connectionString: process.env.PG_URL + "?sslmode=require",
 });
 
 /**
