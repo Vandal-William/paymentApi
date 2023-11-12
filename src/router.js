@@ -5,11 +5,14 @@ const router = express.Router();
 const products = require('./controllers/products');
 const shopping = require('./controllers/shopping');
 const payment = require('./controllers/payment');
+const home = require('./controllers/home')
 
 /**
  * Router Express pour gérer les routes liées aux produits, aux commandes, au panier et au paiement.
  * @namespace
  */
+
+router.get('/', home.sayHello);
 
 /**
  * Route pour récupérer tous les produits.
